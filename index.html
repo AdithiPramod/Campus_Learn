@@ -1,0 +1,597 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusLearn</title>
+
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header id="top">
+
+        <div class="logo">
+            <span style="font-size: 24px;">🎓</span>
+
+            <div>
+                <h2>CampusLearn</h2>
+                <small>Learn • Build • Grow</small>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+            <a href="#site-search">⌕ Search</a>
+        </nav>
+
+    </header>
+
+    <div class="layout">
+
+        <!-- LEFT SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <a href="#top" class="active">⌂ &nbsp; Home</a>
+
+            <a href="#courses">▤ &nbsp; Course Overview</a>
+
+            <a href="#syllabus">▣ &nbsp; Syllabus</a>
+
+            <a href="#gallery">▧ &nbsp; Study Materials</a>
+
+            <a href="#events">▤ &nbsp; Assignments</a>
+
+            <a href="#resources">↗ &nbsp; Useful Links</a>
+
+            <a href="#faq">? &nbsp; FAQ</a>
+
+            <div class="sidebar-bottom">
+                <div style="font-size: 25px;">🎓</div>
+                <p>Small steps<br>today, big dreams<br>tomorrow!</p>
+            </div>
+
+        </aside>
+
+        <!-- MAIN CONTENT -->
+
+        <main id="home">
+
+            <div class="content-grid">
+
+                <div class="left-content">
+
+                    <!-- WORKING SITE SEARCH -->
+                    <section class="site-search" id="site-search">
+                        <h3>⌕ Search CampusLearn</h3>
+                        <form id="search-form">
+                            <div class="search-row">
+                                <input type="search" id="site-search-input" placeholder="Search courses, syllabus, assignments..." aria-label="Search CampusLearn">
+                                <button type="submit">Search</button>
+                            </div>
+                        </form>
+                        <div id="search-results" aria-live="polite"></div>
+                    </section>
+
+                    <!-- HERO BANNER -->
+
+                    <section class="hero">
+
+                        <div>
+                            <h1>Computer Science<br>Fundamentals</h1>
+
+                            <p>Learn the basics. Build the future.</p>
+
+                            <a href="#courses" class="btn">
+                                Explore the Course →
+                            </a>
+                        </div>
+
+                    </section>
+
+                    <!-- ABOUT SECTION -->
+
+                    <section class="section" id="about">
+
+                        <h2>
+                            Welcome to Computer Science Fundamentals
+                        </h2>
+
+                        <p class="intro">
+                            This course introduces the basics of computer
+                            science, including problem solving, programming,
+                            and web technologies. It is designed for first-year
+                            students who are new to the subject.
+                        </p>
+
+                        <div class="features">
+
+                            <div class="feature">
+                                <div class="feature-icon">💻</div>
+                                <h4>Learn</h4>
+                                <p>Understand core concepts and terminology.</p>
+                            </div>
+
+                            <div class="feature">
+                                <div class="feature-icon">▱</div>
+                                <h4>Practice</h4>
+                                <p>Solve problems and write simple programs.</p>
+                            </div>
+
+                            <div class="feature">
+                                <div class="feature-icon">💡</div>
+                                <h4>Build</h4>
+                                <p>Create small projects to apply your knowledge.</p>
+                            </div>
+
+                            <div class="feature">
+                                <div class="feature-icon">👥</div>
+                                <h4>Grow</h4>
+                                <p>Gain confidence and improve your skills.</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!-- COURSE MODULES -->
+
+                    <section class="section" id="courses">
+
+                        <h3>▦ &nbsp; Course Modules</h3>
+
+                        <div class="table-wrap" id="syllabus">
+
+                            <table>
+
+                                <tr>
+                                    <th>Module</th>
+                                    <th>Topic</th>
+                                    <th>Week</th>
+                                    <th>Status</th>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Introduction to Computers</td>
+                                    <td>Week 1</td>
+                                    <td>
+                                        <span class="status completed">
+                                            Completed
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>Programming Basics</td>
+                                    <td>Week 2–3</td>
+                                    <td>
+                                        <span class="status progress">
+                                            In Progress
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>Web Technologies (HTML & CSS)</td>
+                                    <td>Week 4–5</td>
+                                    <td>
+                                        <span class="status not-started">
+                                            Not Started
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td>Problem Solving & Logic</td>
+                                    <td>Week 6</td>
+                                    <td>
+                                        <span class="status not-started">
+                                            Not Started
+                                        </span>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+
+                        <div class="progress-card" id="course-progress">
+                            <div class="journey-top">
+                                <div class="journey-ring" id="progress-ring" role="img" aria-label="Course completion: 25 percent">
+                                    <div class="journey-ring-inner"><strong id="progress-percent">25%</strong><span>COMPLETE</span></div>
+                                </div>
+                                <div class="journey-intro">
+                                    <h3>🧭 Your Learning Journey</h3>
+                                    <p id="progress-label" aria-live="polite">1 of 4 milestones completed</p>
+                                    <p id="journey-message">Great start! Keep moving to unlock your next milestone.</p>
+                                </div>
+                            </div>
+                            <div class="journey-grid">
+                                <div class="journey-step done"><span class="journey-number">1</span><div><label><input type="checkbox" class="module-complete" data-module="0" checked>Introduction to Computers</label><span class="journey-status">✓ Milestone 1</span></div></div>
+                                <div class="journey-step"><span class="journey-number">2</span><div><label><input type="checkbox" class="module-complete" data-module="1">Programming Basics</label><span class="journey-status">Milestone 2</span></div></div>
+                                <div class="journey-step"><span class="journey-number">3</span><div><label><input type="checkbox" class="module-complete" data-module="2">Web Technologies (HTML &amp; CSS)</label><span class="journey-status">Milestone 3</span></div></div>
+                                <div class="journey-step"><span class="journey-number">4</span><div><label><input type="checkbox" class="module-complete" data-module="3">Problem Solving &amp; Logic</label><span class="journey-status">Final milestone</span></div></div>
+                            </div>
+                            <p><small>Mark each milestone as complete to update your journey. Your progress is saved in this browser.</small></p>
+                        </div>
+
+                    </section>
+
+                    <!-- GALLERY -->
+
+                    <section class="section" id="gallery">
+
+                        <h3>▧ &nbsp; Gallery</h3>
+
+                        <div class="gallery">
+
+                            <div class="gallery-item">
+                                <img
+                                    src="images/coding.jpg"
+                                    alt="Computer programming">
+                                <p>Learning to Code</p>
+                            </div>
+
+                            <div class="gallery-item">
+                                <img
+                                    src="images/study-space.jpg"
+                                    alt="Study workspace">
+                                <p>Study Materials</p>
+                            </div>
+
+                            <div class="gallery-item">
+                                <img
+                                    src="images/students.jpg"
+                                    alt="Students studying together">
+                                <p>Real Learning</p>
+                            </div>
+
+                            <div class="gallery-item">
+                                <img
+                                    src="images/team-study.jpg"
+                                    alt="Digital learning">
+                                <p>Digital Skills</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!-- TOPICS AND USEFUL LINKS -->
+
+                    <section class="section two-columns" id="resources">
+
+                        <div>
+
+                            <h3>☷ &nbsp; Key Topics</h3>
+
+                            <ul class="link-list">
+                                <li>
+                                    <a href="https://sbbsuniversity.ac.in/Digital%20Literatcy%20App/chapter1.html">What is a Computer?</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.geeksforgeeks.org/operating-systems/operating-systems/">Operating Systems</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.python.org/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Programming Languages
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.w3schools.com/html/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Web Development (HTML, CSS)
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.geeksforgeeks.org/computer-science-fundamentals/problem-solving-methodologies/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Problem Solving Techniques
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div>
+
+                            <h3>☷ &nbsp; Useful Links</h3>
+
+                            <ul class="link-list">
+
+                                <li>
+                                    <a href="https://www.w3schools.com/html/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        W3Schools (HTML & CSS)
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://developer.mozilla.org/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        MDN Web Docs
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.geeksforgeeks.org/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        GeeksforGeeks
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.python.org/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Python Official Website
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.w3.org/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        W3C Website
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </section>
+
+                    <!-- FAQ SECTION -->
+
+                    <section class="section" id="faq">
+
+                        <h3>❓ Frequently Asked Questions</h3>
+
+                        <div class="faq-item">
+                            <strong>Where can I find the syllabus?</strong>
+                            <p>
+                                Visit the Course Modules section using
+                                the Syllabus link.
+                            </p>
+                        </div>
+
+                        <div class="faq-item">
+                            <strong>Where can I find study materials?</strong>
+                            <p>
+                                Visit the Gallery and Useful Links sections.
+                            </p>
+                        </div>
+
+                        <div class="faq-item">
+                            <strong>How can I contact the instructor?</strong>
+                            <p>
+                                Use the Contact Us form in the right sidebar.
+                            </p>
+                        </div>
+
+                    </section>
+
+                    <!-- BOTTOM BANNER -->
+
+                    <section class="callout">
+
+                        <div>
+                            <strong>
+                                ▣ &nbsp; Ready to take the next step?
+                            </strong>
+
+                            <p>
+                                Explore the course materials and start
+                                your learning journey today!
+                            </p>
+                        </div>
+
+                        <a href="#courses" class="btn">
+                            Go to Course →
+                        </a>
+
+                    </section>
+
+                </div>
+
+                <!-- RIGHT SIDEBAR: QLINKS -->
+
+                <aside class="qlinks">
+
+                    <!-- QUICK LINKS -->
+
+                    <div class="side-card">
+
+                        <img
+                            src="images/campus.jpg"
+                            alt="College campus">
+
+                        <div class="side-card-content">
+
+                            <h3>↗ Quick Links</h3>
+
+                            <a href="#syllabus">
+                                › &nbsp; Course Syllabus
+                            </a>
+
+                            <a href="#gallery">
+                                › &nbsp; Study Materials
+                            </a>
+
+                            <a href="https://www.geeksforgeeks.org/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                › &nbsp; Programming Resources
+                            </a>
+
+                            <a href="https://stackoverflow.com/questions"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                › &nbsp; Student Forum
+                            </a>
+
+                            <a href="#contact">
+                                › &nbsp; Contact Professors
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- UPCOMING EVENTS -->
+
+                    <div class="side-card" id="events">
+
+                        <div class="side-card-content">
+
+                            <h3>▣ Upcoming Events</h3>
+
+                            <div class="event">
+                                <strong>Assignment 1 Due</strong>
+                                <small>Oct 5, 2026</small>
+                                <a href="#courses">View course modules</a>
+                            </div>
+
+                            <div class="event">
+                                <strong>Lab Session</strong>
+                                <small>Oct 8, 2026</small>
+                                <a href="#resources">View learning resources</a>
+                            </div>
+
+                            <div class="event">
+                                <strong>Midterm Exam</strong>
+                                <small>Oct 15, 2026</small>
+                                <a href="#syllabus">View syllabus</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CONTACT FORM -->
+
+                    <div class="side-card" id="contact">
+
+                        <div class="side-card-content">
+
+                            <h3>☏ Contact Us</h3>
+
+                            <form id="contact-form">
+
+                                <label for="name">Name *</label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="Name"
+                                    placeholder="Enter your name"
+                                    required>
+
+                                <label for="email">Email *</label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="Email"
+                                    placeholder="Enter your email"
+                                    required>
+
+                                <label for="message">Message *</label>
+
+                                <textarea
+                                    id="message"
+                                    name="Message"
+                                    placeholder="Your message..."
+                                    required></textarea>
+
+                                <button
+                                    class="btn contact-button"
+                                    type="submit">
+                                    Send Message
+                                </button>
+
+                            </form>
+                            <p id="contact-success" class="form-success" role="status">Message sent successfully! Thank you for contacting CampusLearn.</p>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="logo">
+                <span style="font-size: 24px;">🎓</span>
+
+                <div>
+                    <h2>CampusLearn</h2>
+                    <small>Learn • Build • Grow</small>
+                </div>
+            </div>
+
+            <div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#resources">Resources</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div>
+                <a href="https://www.facebook.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">Facebook</a>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+
+                <a href="https://www.youtube.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">YouTube</a>
+            </div>
+
+        </div>
+
+        <p>© 2026 CampusLearn. All rights reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
